@@ -8,7 +8,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 
 # ---------- CONFIG ----------
-TOKEN = "8966666626:AAEY61TlkI1mMfSexK-Rx5ceEh5vepGOB_E"
+TOKEN = "8861322216:AAGngjWZB2czJrzswL_xW89bEv_6WXV6RAc"
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
