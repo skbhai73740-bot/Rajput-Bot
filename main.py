@@ -25,7 +25,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ==================== CONFIGURATION ====================
-BOT_TOKEN = "8743272736:AAEQEPf_afFQyeVuH1VudpHZ3I9z4R8RvXk"
+BOT_TOKEN = "8861322216:AAGngjWZB2czJrzswL_xW89bEv_6WXV6RAc"
 CHANNEL_LINK = "https://t.me/+UemRGWr-B2wzMmFl"
 CHANNEL_ID = -1002345678901  # Apne channel ka numeric ID yahan set karein
 
