@@ -1,6 +1,6 @@
 FROM python:3.10-slim
 
-# Install FFmpeg
+# Install FFmpeg for video processing
 RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
@@ -10,5 +10,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# Run gunicorn server with main:app
+# Run Gunicorn web server for Render keep-alive
 CMD ["gunicorn", "-b", "0.0.0.0:10000", "main:app"]
