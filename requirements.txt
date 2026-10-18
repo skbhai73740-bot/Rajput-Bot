@@ -3,3 +3,4 @@ instaloader
 requests
 yt-dlp
 flask
+gunicorn
